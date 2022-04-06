@@ -25,7 +25,6 @@ public class Stacks {
         names.forEach(System.out::println);
     }
     void hasValues(){
-        Object o = null;
         if((long) names.size() >= 1){
             System.out.println("This stack has values");
         }
