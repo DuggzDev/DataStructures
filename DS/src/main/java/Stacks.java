@@ -18,18 +18,28 @@ public class Stacks {
             names.pop();
         }
     }
-    void isEmpty(){
-        if(names.isEmpty()){
-            System.out.println("This stack is now empty");
-        }
-    }
     void peekTopStack(){
         System.out.println(names.peek());
     }
     void viewStacking(){
         names.forEach(System.out::println);
     }
+    void hasValues(){
+        Object o = null;
+        if((long) names.size() >= 1){
+            System.out.println("This stack has values");
+        }
+        else{
+            System.out.println("This stack doesn't have any values");
+        }
+    }
+    Stacks(){
+        names = new Stack<String>();
+        for(int i = 0; i < 10; i++){
+            names.push(String.valueOf((char) new Random().nextInt()));
 
+        }
+    }
 
 
 }
