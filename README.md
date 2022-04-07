@@ -1,4 +1,4 @@
-# Data Structures
+# DSA.Data Structures
 This is a repository containing data structures and algorithms.
 
 Use a _**queue**_ when you want to get things out in the order that you put them in.
