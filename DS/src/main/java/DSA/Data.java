@@ -1,6 +1,7 @@
 package DSA;
 
-import java.util.Stack;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Data {
     public static void main(String[] args) {
@@ -8,7 +9,11 @@ public class Data {
 
 
 
-
     }
+
 }
+
+
+
+
 

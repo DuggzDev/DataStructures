@@ -15,6 +15,6 @@ public class PriorityQ {
 
      que.forEach(System.out::println);
 
-     //Gives que but in order
+     //Same as a que but it's in order with highest priority first.
     }
 }
