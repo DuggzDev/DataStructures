@@ -1,4 +1,5 @@
 # Data Structures
+
 This is a repository containing data structures and algorithms.
 
 ---------------
@@ -77,11 +78,11 @@ Disadvantages:
 
 # Algorithms
 
-#Big O Notation
+Big O Notation
 
 Calculates the efficiency and space of an algorithm.
 
-"How code slows as dat grows."
+"How code slows down, as data grows."
 
 1. It describes the performance of an algorithm as the amount of data increases.
 2. Machine independant (number of steps to completion)
