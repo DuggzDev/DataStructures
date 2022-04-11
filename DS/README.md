@@ -73,6 +73,41 @@ Disadvantages:
 2. Shifting elements is time consuming O(n)
 3. Expanding the array is time consuming O(n)
 
+---
+
+Big O Notation
+
+Calculates the efficiency and space of an algorithm.
+
+O(1) 
+1. Constant time
+2. Random access of an element in an array
+3. Inserting at the beginning of linked list
+
+O(log n) 
+1. Logarithmic time
+2. Binary search
+
+O(n) 
+1. Linear time
+2. Looping through elements in an array
+3. Searching through a linkedlist
+
+O(n log n) 
+1. Quasilinear time
+2. Quick sort 
+3. Merge sort
+4. Heap sort
+
+O(n^2)
+1. Quadratic time
+2. Insertion sort
+3. Selectin ort
+4. Bubble sort
+
+O(N!)
+1. Factorial time
+
 
  # By James
 
