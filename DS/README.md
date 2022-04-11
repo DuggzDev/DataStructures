@@ -75,9 +75,17 @@ Disadvantages:
 
 ---
 
-Big O Notation
+#Big O Notation
 
 Calculates the efficiency and space of an algorithm.
+
+"How code slows as dat grows."
+
+1. It describes the performance of an algorithm as the amount of data increases.
+2. Machine independant (number of steps to completion)
+3. Ignores it's smaller operation - O(n) preceeds O(1), so if the algorithm's effiency is O(n) and also has O(1) it is O(n)
+
+---
 
 O(1) 
 1. Constant time
