@@ -1,4 +1,4 @@
-# DSA.Data Structures
+# Data Structures
 This is a repository containing data structures and algorithms.
 
 ---------------
@@ -74,6 +74,8 @@ Disadvantages:
 3. Expanding the array is time consuming O(n)
 
 ---
+
+# Algorithms
 
 #Big O Notation
 
