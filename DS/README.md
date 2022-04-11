@@ -76,9 +76,15 @@ Disadvantages:
 
 ---
 
+A **Set** is a collection that cannot contain duplicate elements. 
+
+Set guarantees there there is no duplicate object in it. List doesn't so you can have multiple entries of "equal" objects in a list. There are million of things that you can use set and it will make your life much easier, for example, a set of countries, a set of username, etc. If you use a list to store these data, you will need to check whether your list has already contained the same element or not before adding the new one unless the list is allowed to have duplicates.
+
+---
+
 # Algorithms
 
-Big O Notation
+**Big O Notation**
 
 Calculates the efficiency and space of an algorithm.
 
