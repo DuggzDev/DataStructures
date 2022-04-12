@@ -65,22 +65,36 @@ A **Dynamic Array** is initialized by Arraylist
 Advantages:
 
 1. Random access of elements - O(1)
-2. Good locality of refrence and data cache utilization
+2. Good locality of reference and data cache utilization
 3. Easy to insert/delete at the end
 
 Disadvantages: 
 
 1. Wastes more memory due to capacity size
-2. Shifting elements is time consuming O(n)
-3. Expanding the array is time consuming O(n)
+2. Shifting elements is time-consuming O(n)
+3. Expanding the array is time-consuming O(n)
 
 ---
 
 A **Set** is a collection that cannot contain duplicate elements. 
 
-Set guarantees there there is no duplicate object in it. List doesn't so you can have multiple entries of "equal" objects in a list. There are million of things that you can use set and it will make your life much easier, for example, a set of countries, a set of username, etc. If you use a list to store these data, you will need to check whether your list has already contained the same element or not before adding the new one unless the list is allowed to have duplicates.
+Set guarantees there are no duplicate object present. List don't, you can have multiple entries of "equal" objects in a list. There are millions of things that you can use set and it will make your life much easier, for example, a set of countries, a set of username, etc. If you use a list to store these data, you will need to check whether your list has already contained the same element or not before adding the new one unless the list is allowed to have duplicates.
+
+
+    There can be  HashTables, HashMaps, TreeSets, LinkedHashSet, SortedSet, Abstract Set
+
 
 ---
+
+**Graph** is used to model a network
+
+Undirected Graph - Can be linked to multiple nodes | Example - Facebook - Mutual Friends
+Directed Graph - Can only link one node to another (one way connection) | Example - Google Maps
+
+Adjacency matrix - Quick to look up an edge in a graph, but it uses a lot of room | Time Complexity = O(1), Space Complexity = O(N^2)
+
+Adjacency list - Each list is a linked list, finds adjancey between nodes | Time Complexity = O(N), Space Complexity = O(N + N)
+
 
 # Algorithms
 
@@ -91,8 +105,8 @@ Calculates the efficiency and space of an algorithm.
 "How code slows down, as data grows."
 
 1. It describes the performance of an algorithm as the amount of data increases.
-2. Machine independant (number of steps to completion)
-3. Ignores it's smaller operation - O(n) preceeds O(1), so if the algorithm's effiency is O(n) and also has O(1) it is O(n)
+2. Machine independent (number of steps to completion)
+3. Ignores its smaller operation - O(n) proceeds O(1), so if the algorithm's efficiency is O(n) and also has O(1) it is O(n)
 
 ---
 
@@ -108,7 +122,7 @@ O(log n)
 O(n) 
 1. Linear time
 2. Looping through elements in an array
-3. Searching through a linkedlist
+3. Searching through a linked-list
 
 O(n log n) 
 1. Quasilinear time
@@ -119,7 +133,7 @@ O(n log n)
 O(n^2)
 1. Quadratic time
 2. Insertion sort
-3. Selectin ort
+3. Select sort
 4. Bubble sort
 
 O(N!)
