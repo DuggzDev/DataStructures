@@ -3,12 +3,12 @@ package DSA;
 
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+
 //Adjacency Matrix
-public class Graph {
+public class GraphMatrix {
     ArrayList<Node> nodes;
     int[][] matrix;
-Graph(int size){
+GraphMatrix(int size){
 matrix = new int[size][size];
 nodes = new ArrayList<>();
 }
