@@ -95,6 +95,11 @@ Adjacency matrix - Quick to look up an edge in a graph, but it uses a lot of roo
 
 Adjacency list - Each list is a linked list, finds adjancey between nodes | Time Complexity = O(N), Space Complexity = O(N + N)
 
+Depth First Search (DFS) is used for transversing a tree or graph data structure
+1. Pick a route
+2. Keep going until you reach a dead end, or a previously visited node.
+3. Backtrack to last node that has unvisited adjacent neighbours
+
 
 # Algorithms
 
