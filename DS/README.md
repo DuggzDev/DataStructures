@@ -89,6 +89,7 @@ Set guarantees there are no duplicate object present. List don't, you can have m
 **Graph** is used to model a network
 
 Undirected Graph - Can be linked to multiple nodes | Example - Facebook - Mutual Friends
+
 Directed Graph - Can only link one node to another (one way connection) | Example - Google Maps
 
 N -> N -> N
@@ -105,9 +106,9 @@ N
 2. Middle nodes are called branch 
 3. End nodes are called leaf 
 
-Size of a tree = # of Nodes
-Depth of a tree = # of edges below root node to the desired leaf node
-Height of a tree = # of edges above further leaf node
+1. Size of a tree = # of Nodes
+2. Depth of a tree = # of edges below root node to the desired leaf node
+3. Height of a tree = # of edges above further leaf node
 
 
 
@@ -173,7 +174,9 @@ O(N!)
 3. And so forth for each node (level)
 4. Utilizes a queue
 
-**Binary Tree** tree where each node cannot have more than 2 childrne
+**Binary Search Tree** tree where each node cannot have more than 2 (0 & 1) children
+
+1. Root node should be larger than left child node but smaller than right child node
 
  # By James
 
