@@ -91,14 +91,9 @@ Set guarantees there are no duplicate object present. List don't, you can have m
 Undirected Graph - Can be linked to multiple nodes | Example - Facebook - Mutual Friends
 Directed Graph - Can only link one node to another (one way connection) | Example - Google Maps
 
-Adjacency matrix - Quick to look up an edge in a graph, but it uses a lot of room | Time Complexity = O(1), Space Complexity = O(N^2)
 
-Adjacency list - Each list is a linked list, finds adjancey between nodes | Time Complexity = O(N), Space Complexity = O(N + N)
 
-Depth First Search (DFS) is used for transversing a tree or graph data structure
-1. Pick a route
-2. Keep going until you reach a dead end, or a previously visited node.
-3. Backtrack to last node that has unvisited adjacent neighbours
+
 
 
 # Algorithms
@@ -144,6 +139,22 @@ O(n^2)
 O(N!)
 1. Factorial time
 
+---
+**Adjacency matrix** - Quick to look up an edge in a graph, but it uses a lot of room | Time Complexity = O(1), Space Complexity = O(N^2)
+
+**Adjacency list** - Each list is a linked list, finds adjancey between nodes | Time Complexity = O(N), Space Complexity = O(N + N)
+
+**Depth First Search (DFS)** is a search algorithm used for transversing a tree or graph data structure a branch at a time.
+
+1. Pick a route
+2. Keep going until you reach a dead end, or a previously visited node.
+3. Backtrack to last node that has unvisited adjacent neighbours
+
+**Breadth First Search (BFS)** is a search algorithm for transversing a tree or graph data structure one level at a time.
+
+1. Pick a starting route
+2. Which adjacent neighbours are connecting to that node
+3. And so forth for each node (level)
 
  # By James
 
