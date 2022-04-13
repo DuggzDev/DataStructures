@@ -105,6 +105,10 @@ N
 2. Middle nodes are called branch 
 3. End nodes are called leaf 
 
+Size of a tree = # of Nodes
+Depth of a tree = # of edges below root node to the desired leaf node
+Height of a tree = # of edges above further leaf node
+
 
 
 # Algorithms
@@ -168,6 +172,8 @@ O(N!)
 2. Which adjacent neighbours are connecting to that node
 3. And so forth for each node (level)
 4. Utilizes a queue
+
+**Binary Tree** tree where each node cannot have more than 2 childrne
 
  # By James
 
