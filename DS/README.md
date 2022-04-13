@@ -91,8 +91,19 @@ Set guarantees there are no duplicate object present. List don't, you can have m
 Undirected Graph - Can be linked to multiple nodes | Example - Facebook - Mutual Friends
 Directed Graph - Can only link one node to another (one way connection) | Example - Google Maps
 
+N -> N -> N
+|
+v
+N-> N
+|
+v 
+N
 
+**Tree** is a non-linear data structure where nodes are organized in a heirachy
 
+1. Start nodes are called root 
+2. Middle nodes are called branch 
+3. End nodes are called leaf 
 
 
 
@@ -149,12 +160,14 @@ O(N!)
 1. Pick a route
 2. Keep going until you reach a dead end, or a previously visited node.
 3. Backtrack to last node that has unvisited adjacent neighbours
+4. Utilizes a stack
 
 **Breadth First Search (BFS)** is a search algorithm for transversing a tree or graph data structure one level at a time.
 
 1. Pick a starting route
 2. Which adjacent neighbours are connecting to that node
 3. And so forth for each node (level)
+4. Utilizes a queue
 
  # By James
 
