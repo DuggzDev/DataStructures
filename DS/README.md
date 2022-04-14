@@ -182,7 +182,7 @@ O(N!)
 
 1. Each node going to the left has the least value and each node going to the right has the most
 
-#Applications of binary trees
+Applications of binary trees
 1. Binary Search Tree - Used in many search applications where data is constantly entering/leaving, such as the map and set objects in many languages' libraries.
 
 
