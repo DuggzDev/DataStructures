@@ -1,4 +1,4 @@
-package DSA;
+package DataStructures;
 
 import java.util.LinkedList;
 

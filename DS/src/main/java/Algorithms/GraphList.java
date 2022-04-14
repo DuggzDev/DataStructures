@@ -1,12 +1,16 @@
-package DSA;
+package Algorithms;
+
+import Algorithms.Node;
+import DataStructures.Setz;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class GraphList {
+public class GraphList  {
     ArrayList<LinkedList<Node>> alist;
 
     GraphList(){
+
         alist = new ArrayList<>();
 
     }

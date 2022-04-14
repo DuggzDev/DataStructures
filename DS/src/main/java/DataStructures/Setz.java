@@ -1,9 +1,6 @@
-package DSA;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package DataStructures;
 
 import java.util.*;
-import java.util.function.BiConsumer;
 
 public class Setz {
     Setz() {

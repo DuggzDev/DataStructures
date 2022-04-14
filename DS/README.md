@@ -174,9 +174,46 @@ O(N!)
 3. And so forth for each node (level)
 4. Utilizes a queue
 
-**Binary Search Tree** tree where each node cannot have more than 2 (0 & 1) children
+**Binary Tree**  where each node cannot have more than 2 (0 & 1) children
 
 1. Root node should be larger than left child node but smaller than right child node
+
+**Binary Search Tree** where each node cannot have more than 2 (0 & 1) children
+
+1. Each node going to the left has the least value and each node going to the right has the most
+
+#Applications of binary trees
+1. Binary Search Tree - Used in many search applications where data is constantly entering/leaving, such as the map and set objects in many languages' libraries.
+
+
+2. Binary Space Partition - Used in almost every 3D video game to determine what objects need to be rendered.
+
+
+3. Binary Tries - Used in almost every high-bandwidth router for storing router-tables.
+
+
+4. Hash Trees - Used in torrents and specialized image-signatures in which a hash needs to be verified, but the whole file is not available. Also used in blockchains for eg. Bitcoin.
+
+
+5. Heaps - Used in implementing efficient priority-queues, which in turn are used for scheduling processes in many operating systems, Quality-of-Service in routers, and A* (path-finding algorithm used in AI applications, including robotics and video games). Also used in heap-sort.
+
+
+6. Huffman Coding Tree (Chip Uni) - Used in compression algorithms, such as those used by the .jpeg and .mp3 file-formats.
+
+
+7. GGM Trees - Used in cryptographic applications to generate a tree of pseudo-random numbers.
+
+
+8. Syntax Tree - Constructed by compilers and (implicitly) calculators to parse expressions.
+
+
+9. Treap - Randomized data structure used in wireless networking and memory allocation.
+
+
+10. T-tree - Though most databases use some form of B-tree to store data on the drive, databases which keep all (most) their data in memory often use T-trees to do so.
+
+
+
 
  # By James
 
