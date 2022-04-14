@@ -100,6 +100,8 @@ N-> N
 v 
 N
 
+--- 
+
 **Tree** is a non-linear data structure where nodes are organized in a heirachy
 
 1. Start nodes are called root 
