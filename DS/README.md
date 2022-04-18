@@ -120,6 +120,9 @@ N
 
 Calculates the efficiency and space of an algorithm.
 
+Run Time Complexity = Amount of computer time it takes to run the algorithm
+Space Time Complexity = Memory space required to solve a problem
+
 "How code slows down, as data grows."
 
 1. It describes the performance of an algorithm as the amount of data increases.
@@ -214,8 +217,76 @@ Applications of binary trees
 
 10. T-tree - Though most databases use some form of B-tree to store data on the drive, databases which keep all (most) their data in memory often use T-trees to do so.
 
+--- 
+**Linear Search** iterates through a collection one at a time - O(n)
 
+Advantages:
+1. Fast for searches of small to medium data sets
+2. Does not need to be sorted
+3. Useful for data structures that do not have random access - Linked Lists
 
+Disadvantages:
+1. Slow for large data sets
 
+**Binary Search** finds the position of a target value within a _sorted array_, half of the array is eliminated during each step
+
+**Interpolation Search** "guesses" where a value may be based on calculated probe results
+
+Advantages:
+1. Average case - O(log n(log (n)))
+
+Disadvantages:
+1. O(n)
+
+**Selection Sort** repeatedly finds the minimum element and swaps it into ascending order
+
+Advantages:
+1. Good for small data sets
+
+Disadvantages:
+1. Slow for large data sets
+2. O(n^2)
+
+**Bubble Sort** compares adjacent elements to see if they're in order, if not they switch and the next elements are compared
+
+Advantages:
+1. Decent for amsll data sets
+
+Disadvantages:
+1. Slow for large data sets
+2. O(n^2)
+
+**Insertion Sort** After comparing elements to the left, shift elements to the right to make room to insert a value
+
+Advantages:
+1. Good for small data sets
+2. Less steps that bubble sort
+3. Best case is O(n) compared to selection sort O(n^2)
+
+Disadvantages:
+1. Slow for large data sets
+
+**Merge Sort** recursively divide array into 2, sort in order and then re-combine
+
+_Run-time complexity = O(n log n)_
+Space complexity = O(n);
+
+**Quick Sort** moves smaller elements to left of a pivot, recursively divides an array into 2 partitions.
+
+Advantages:
+1. Good for small data sets
+
+Disadvantages:
+1. Slow for large data sets
+2. Worst case O(n^2)
+
+**Recursion** something that calls itself
+
+Advantages:
+1. Easy to read,write,debug
+
+Disadvantages:
+1. Slower speed
+2. Uses more memory
  # By James
 

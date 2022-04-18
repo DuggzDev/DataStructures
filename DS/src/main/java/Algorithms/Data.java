@@ -2,18 +2,12 @@ package Algorithms;
 
 public class Data {
 
-
     public static void main(String[] args) {
-        BinarySearchTree tree = new BinarySearchTree();
-        tree.insert(new Nodes(1));
-        tree.insert(new Nodes( 5));
-        tree.insert(new Nodes(7));
-        tree.insert(new Nodes( 5));
-        tree.insert(new Nodes(9));
-        tree.insert(new Nodes( 3));
-
-
-        tree.remove(1);
-        tree.display();
+int[] arr = {1,2,3,4,5,6,7,8,9};
+int cal = 0;
+        while(cal < arr.length){
+            System.out.println(arr[cal]);
+            cal++;
+        }
     }
 }
